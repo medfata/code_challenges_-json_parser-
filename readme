@@ -9,7 +9,7 @@ This project is a custom JSON parser implemented in Java, following a functional
 
 ## Architecture
 
-![JSON Parser Architecture](https://github.com/medfata/code_challenges_-json_parser-/blob/master/design.png)
+![JSON Parser Architecture](design.png)
 
 ## Installation
 
