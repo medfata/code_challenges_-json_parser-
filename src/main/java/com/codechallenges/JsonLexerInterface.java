@@ -1,5 +1,7 @@
 package com.codechallenges;
 
+import java.util.List;
+
 public interface JsonLexerInterface {
-    JsonToken toknize(String input);
+    List<JsonToken> toknize(String input);
 }

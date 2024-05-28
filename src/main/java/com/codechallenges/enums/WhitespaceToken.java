@@ -1,5 +1,7 @@
 package com.codechallenges.enums;
 
+import java.util.Arrays;
+
 public enum WhitespaceToken {
     SPACE(' '),
     TAB('\t'),
@@ -19,5 +21,9 @@ public enum WhitespaceToken {
     @Override
     public String toString() {
         return Character.toString(symbol);
+    }
+
+    public  static boolean isWhitspace(char c){
+        return Arrays.stream(WhitespaceToken.values()).anyMatch(token -> token.symbol == c);
     }
 }
